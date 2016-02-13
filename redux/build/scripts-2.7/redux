@@ -1,0 +1,4 @@
+#!/bin/python
+
+import redux.client
+redux.client.run()

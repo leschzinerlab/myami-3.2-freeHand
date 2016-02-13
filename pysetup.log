@@ -1,0 +1,2084 @@
+
+######################################
+myami python setup log
+Thu Jan 14 15:53:40 PST 2016
+######################################
+
+########################
+processing imageviewer
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/imageviewer
+copying window.py -> build/lib/imageviewer
+copying events.py -> build/lib/imageviewer
+copying __init__.py -> build/lib/imageviewer
+copying numarrayimage.py -> build/lib/imageviewer
+copying tools.py -> build/lib/imageviewer
+copying plugins.py -> build/lib/imageviewer
+copying numpyimage.py -> build/lib/imageviewer
+copying viewer.py -> build/lib/imageviewer
+creating build/lib/imageviewer/icons
+copying icons/__init__.py -> build/lib/imageviewer/icons
+running install_lib
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+copying build/lib/imageviewer/viewer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+copying build/lib/imageviewer/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons
+copying build/lib/imageviewer/icons/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons
+copying build/lib/imageviewer/tools.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+copying build/lib/imageviewer/numpyimage.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+copying build/lib/imageviewer/numarrayimage.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+copying build/lib/imageviewer/events.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+copying build/lib/imageviewer/plugins.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+copying build/lib/imageviewer/window.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/viewer.py to viewer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/tools.py to tools.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/numpyimage.py to numpyimage.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/numarrayimage.py to numarrayimage.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/events.py to events.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/plugins.py to plugins.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/window.py to window.pyc
+running install_data
+copying icons/crosshairs.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons
+copying icons/info.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons
+copying icons/display.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons
+copying icons/target.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons
+copying icons/zoom.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer/icons
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib/python2.7/site-packages/imageviewer-0.1-py2.7.egg-info
+
+########################
+processing leginon
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/leginon
+copying centertargetfilter.py -> build/lib/leginon
+copying testtargetfinder.py -> build/lib/leginon
+copying install-leginon.py -> build/lib/leginon
+copying rasterfinder.py -> build/lib/leginon
+copying noderegistry.py -> build/lib/leginon
+copying driftmanager.py -> build/lib/leginon
+copying watcher.py -> build/lib/leginon
+copying beamtiltcalibrator.py -> build/lib/leginon
+copying syscheck.py -> build/lib/leginon
+copying fftmaker.py -> build/lib/leginon
+copying imagebeamcalibrator.py -> build/lib/leginon
+copying align.py -> build/lib/leginon
+copying cscheck.py -> build/lib/leginon
+copying hough.py -> build/lib/leginon
+copying conditioner.py -> build/lib/leginon
+copying shortpath.py -> build/lib/leginon
+copying corrector.py -> build/lib/leginon
+copying launcher.py -> build/lib/leginon
+copying imagewatcher.py -> build/lib/leginon
+copying robot2nysbc.py -> build/lib/leginon
+copying squarefinder.py -> build/lib/leginon
+copying test2.py -> build/lib/leginon
+copying targetrepeater.py -> build/lib/leginon
+copying manager.py -> build/lib/leginon
+copying simulogger.py -> build/lib/leginon
+copying magcalibrator.py -> build/lib/leginon
+copying imageprocessorexample.py -> build/lib/leginon
+copying scrippsrobotserver.py -> build/lib/leginon
+copying matlabtargetfinder.py -> build/lib/leginon
+copying holedepthback.py -> build/lib/leginon
+copying socketpickle.py -> build/lib/leginon
+copying start-leginon.py -> build/lib/leginon
+copying leginondata.py -> build/lib/leginon
+copying manualacquisition.py -> build/lib/leginon
+copying NumericImage.py -> build/lib/leginon
+copying update16.py -> build/lib/leginon
+copying getinstrumentclasses.py -> build/lib/leginon
+copying datatransport.py -> build/lib/leginon
+copying gonmodeler.py -> build/lib/leginon
+copying querystagepoints.py -> build/lib/leginon
+copying plategridmaker.py -> build/lib/leginon
+copying pixelsizecalibrator.py -> build/lib/leginon
+copying databinder.py -> build/lib/leginon
+copying quantifoil.py -> build/lib/leginon
+copying robot2.py -> build/lib/leginon
+copying polygon.py -> build/lib/leginon
+copying plotgain.py -> build/lib/leginon
+copying test1.py -> build/lib/leginon
+copying beamsizecalibrator.py -> build/lib/leginon
+copying exposurefixer.py -> build/lib/leginon
+copying holedepth.py -> build/lib/leginon
+copying templatefinder.py -> build/lib/leginon
+copying sampletargetfilter.py -> build/lib/leginon
+copying remotecall.py -> build/lib/leginon
+copying libCVwrapper.py -> build/lib/leginon
+copying start.py -> build/lib/leginon
+copying acquisition.py -> build/lib/leginon
+copying caustic.py -> build/lib/leginon
+copying intensitymonitor.py -> build/lib/leginon
+copying datasync.py -> build/lib/leginon
+copying speed.py -> build/lib/leginon
+copying test2_array_transport.py -> build/lib/leginon
+copying clickmaskmaker.py -> build/lib/leginon
+copying clean.py -> build/lib/leginon
+copying imageassessor.py -> build/lib/leginon
+copying imodprocessor.py -> build/lib/leginon
+copying targethandler.py -> build/lib/leginon
+copying testrepeater.py -> build/lib/leginon
+copying beamfixer.py -> build/lib/leginon
+copying focuser.py -> build/lib/leginon
+copying regionfinder.py -> build/lib/leginon
+copying targetfilter.py -> build/lib/leginon
+copying gaussfit.py -> build/lib/leginon
+copying jahcfinderback.py -> build/lib/leginon
+copying checkapps.py -> build/lib/leginon
+copying imageprocessor.py -> build/lib/leginon
+copying presetadjuster.py -> build/lib/leginon
+copying buffercycler.py -> build/lib/leginon
+copying calibrator.py -> build/lib/leginon
+copying leginonconfig.py -> build/lib/leginon
+copying plategridentry.py -> build/lib/leginon
+copying targetexample.py -> build/lib/leginon
+copying atlastargetmaker.py -> build/lib/leginon
+copying baker.py -> build/lib/leginon
+copying targetfinder.py -> build/lib/leginon
+copying ddinfo.py -> build/lib/leginon
+copying robot.py -> build/lib/leginon
+copying mosaic.py -> build/lib/leginon
+copying manualfocuschecker.py -> build/lib/leginon
+copying gridlabeler.py -> build/lib/leginon
+copying targetmaker.py -> build/lib/leginon
+copying testdb.py -> build/lib/leginon
+copying dosecalibrator.py -> build/lib/leginon
+copying tilttracker.py -> build/lib/leginon
+copying importexport.py -> build/lib/leginon
+copying sibling_stagepositions.py -> build/lib/leginon
+copying configcheck.py -> build/lib/leginon
+copying modelinst.py -> build/lib/leginon
+copying gridentry.py -> build/lib/leginon
+copying betarotation.py -> build/lib/leginon
+copying beamtiltfixer.py -> build/lib/leginon
+copying maketemplate.py -> build/lib/leginon
+copying allnodes.py -> build/lib/leginon
+copying gonmodel.py -> build/lib/leginon
+copying stigacquisition.py -> build/lib/leginon
+copying rasterindexer.py -> build/lib/leginon
+copying webcam.py -> build/lib/leginon
+copying MrcImagePlugin.py -> build/lib/leginon
+copying workflow.py -> build/lib/leginon
+copying maskassessor.py -> build/lib/leginon
+copying ice.py -> build/lib/leginon
+copying autoexposure.py -> build/lib/leginon
+copying manualimageloader.py -> build/lib/leginon
+copying correctorclient.py -> build/lib/leginon
+copying montage.py -> build/lib/leginon
+copying tiltacquisition.py -> build/lib/leginon
+copying houghcircle.py -> build/lib/leginon
+copying targetworkflow.py -> build/lib/leginon
+copying dtfinder.py -> build/lib/leginon
+copying delapps.py -> build/lib/leginon
+copying jahcfinder.py -> build/lib/leginon
+copying calibrationclient.py -> build/lib/leginon
+copying alignmentmanager.py -> build/lib/leginon
+copying rctacquisition.py -> build/lib/leginon
+copying compositetest.py -> build/lib/leginon
+copying transformmanager.py -> build/lib/leginon
+copying caltransformer.py -> build/lib/leginon
+copying session.py -> build/lib/leginon
+copying player.py -> build/lib/leginon
+copying killtargets.py -> build/lib/leginon
+copying project.py -> build/lib/leginon
+copying navigator.py -> build/lib/leginon
+copying imagehandler.py -> build/lib/leginon
+copying plotmodel.py -> build/lib/leginon
+copying projectdata.py -> build/lib/leginon
+copying holefinder.py -> build/lib/leginon
+copying event.py -> build/lib/leginon
+copying tableau.py -> build/lib/leginon
+copying beamtiltimager.py -> build/lib/leginon
+copying reference.py -> build/lib/leginon
+copying fftanalyzer.py -> build/lib/leginon
+copying corrector2.py -> build/lib/leginon
+copying __init__.py -> build/lib/leginon
+copying transformregistration.py -> build/lib/leginon
+copying emailnotification.py -> build/lib/leginon
+copying commonsteps.py -> build/lib/leginon
+copying legoptparse.py -> build/lib/leginon
+copying getReferences.py -> build/lib/leginon
+copying configparser.py -> build/lib/leginon
+copying mosaictargetfinder.py -> build/lib/leginon
+copying rawtransfer.py -> build/lib/leginon
+copying appclient.py -> build/lib/leginon
+copying makeatlas.py -> build/lib/leginon
+copying EM.py -> build/lib/leginon
+copying cameraclient.py -> build/lib/leginon
+copying application.py -> build/lib/leginon
+copying runRaptor.py -> build/lib/leginon
+copying dbdatatest.py -> build/lib/leginon
+copying mosaicsectionfinder.py -> build/lib/leginon
+copying presets.py -> build/lib/leginon
+copying node.py -> build/lib/leginon
+copying tiltmatch.py -> build/lib/leginon
+copying newtargetfinder.py -> build/lib/leginon
+copying tcptransport.py -> build/lib/leginon
+copying tiltcorrector.py -> build/lib/leginon
+copying fftace.py -> build/lib/leginon
+copying lattice.py -> build/lib/leginon
+copying holefinderback.py -> build/lib/leginon
+copying tiltrotate.py -> build/lib/leginon
+copying libcvcaller.py -> build/lib/leginon
+copying robotserver.py -> build/lib/leginon
+copying instrument.py -> build/lib/leginon
+copying timer.py -> build/lib/leginon
+copying localtransport.py -> build/lib/leginon
+copying openCVcaller.py -> build/lib/leginon
+copying beeper.py -> build/lib/leginon
+copying clicktargettransformer.py -> build/lib/leginon
+copying raster.py -> build/lib/leginon
+copying socketstreamtransport.py -> build/lib/leginon
+copying matrixcalibrator.py -> build/lib/leginon
+copying intensitycalibrator.py -> build/lib/leginon
+copying tiltalternater.py -> build/lib/leginon
+copying test1_array_transport.py -> build/lib/leginon
+copying mrc2jpg2out.py -> build/lib/leginon
+copying mosaicspotfinder.py -> build/lib/leginon
+copying targetwatcher.py -> build/lib/leginon
+copying rasterfcfinder.py -> build/lib/leginon
+copying legbackup.py -> build/lib/leginon
+copying jpeg.py -> build/lib/leginon
+copying unique.py -> build/lib/leginon
+copying raptorprocessor.py -> build/lib/leginon
+copying mrc2jpg.py -> build/lib/leginon
+copying rastertargetfilter.py -> build/lib/leginon
+copying version.py -> build/lib/leginon
+copying robotatlastargetfinder.py -> build/lib/leginon
+creating build/lib/leginon/gui
+copying gui/__init__.py -> build/lib/leginon/gui
+creating build/lib/leginon/gui/wx
+copying gui/wx/Processing.py -> build/lib/leginon/gui/wx
+copying gui/wx/ClickTargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageViewer.py -> build/lib/leginon/gui/wx
+copying gui/wx/TiltAcquisition.py -> build/lib/leginon/gui/wx
+copying gui/wx/Launcher.py -> build/lib/leginon/gui/wx
+copying gui/wx/Manager.py -> build/lib/leginon/gui/wx
+copying gui/wx/MagCalibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/Corrector.py -> build/lib/leginon/gui/wx
+copying gui/wx/ManualFocus.py -> build/lib/leginon/gui/wx
+copying gui/wx/PresetsManager.py -> build/lib/leginon/gui/wx
+copying gui/wx/ClickTargetTransformer.py -> build/lib/leginon/gui/wx
+copying gui/wx/TiltTracker.py -> build/lib/leginon/gui/wx
+copying gui/wx/__init__.py -> build/lib/leginon/gui/wx
+copying gui/wx/RaptorProcessor.py -> build/lib/leginon/gui/wx
+copying gui/wx/Node.py -> build/lib/leginon/gui/wx
+copying gui/wx/Dialog.py -> build/lib/leginon/gui/wx
+copying gui/wx/StigAcquisition.py -> build/lib/leginon/gui/wx
+copying gui/wx/ObjectCanvas.py -> build/lib/leginon/gui/wx
+copying gui/wx/Calibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/DTFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/MosaicTargetMaker.py -> build/lib/leginon/gui/wx
+copying gui/wx/ListBox.py -> build/lib/leginon/gui/wx
+copying gui/wx/AtlasTargetMaker.py -> build/lib/leginon/gui/wx
+copying gui/wx/Beeper.py -> build/lib/leginon/gui/wx
+copying gui/wx/ToolBar.py -> build/lib/leginon/gui/wx
+copying gui/wx/ManualAcquisition.py -> build/lib/leginon/gui/wx
+copying gui/wx/Robot.py -> build/lib/leginon/gui/wx
+copying gui/wx/Conditioner.py -> build/lib/leginon/gui/wx
+copying gui/wx/BeamTiltFixer.py -> build/lib/leginon/gui/wx
+copying gui/wx/DoseCalibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/DriftManager.py -> build/lib/leginon/gui/wx
+copying gui/wx/Baker.py -> build/lib/leginon/gui/wx
+copying gui/wx/Focuser.py -> build/lib/leginon/gui/wx
+copying gui/wx/ApplicationEditor.py -> build/lib/leginon/gui/wx
+copying gui/wx/Entry.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImagePanel.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageViewer2.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageBrowser.py -> build/lib/leginon/gui/wx
+copying gui/wx/FFTAnalyzer.py -> build/lib/leginon/gui/wx
+copying gui/wx/About.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageViewer3.py -> build/lib/leginon/gui/wx
+copying gui/wx/RasterTargetFilter.py -> build/lib/leginon/gui/wx
+copying gui/wx/TestTargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/IntensityMonitor.py -> build/lib/leginon/gui/wx
+copying gui/wx/TargetTemplate.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageProcessor.py -> build/lib/leginon/gui/wx
+copying gui/wx/RCTAcquisition.py -> build/lib/leginon/gui/wx
+copying gui/wx/GridEntry.py -> build/lib/leginon/gui/wx
+copying gui/wx/Camera.py -> build/lib/leginon/gui/wx
+copying gui/wx/MosaicSpotFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/TargetPanelTools.py -> build/lib/leginon/gui/wx
+copying gui/wx/MatrixCalibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/Logging.py -> build/lib/leginon/gui/wx
+copying gui/wx/FFTMaker.py -> build/lib/leginon/gui/wx
+copying gui/wx/Acquisition.py -> build/lib/leginon/gui/wx
+copying gui/wx/Stats.py -> build/lib/leginon/gui/wx
+copying gui/wx/SetupWizard.py -> build/lib/leginon/gui/wx
+copying gui/wx/BeamSizeCalibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/RasterFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/ManualImageLoader.py -> build/lib/leginon/gui/wx
+copying gui/wx/BeamFixer.py -> build/lib/leginon/gui/wx
+copying gui/wx/RasterFCFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/NewTargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/PlateGridEntry.py -> build/lib/leginon/gui/wx
+copying gui/wx/Master.py -> build/lib/leginon/gui/wx
+copying gui/wx/FocusSequence.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageScale.py -> build/lib/leginon/gui/wx
+copying gui/wx/SampleTargetFilter.py -> build/lib/leginon/gui/wx
+copying gui/wx/Events.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageViewerEvents.py -> build/lib/leginon/gui/wx
+copying gui/wx/JAHCFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/MosaicSectionFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/Icons.py -> build/lib/leginon/gui/wx
+copying gui/wx/TiltAlternater.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageViewerTools.py -> build/lib/leginon/gui/wx
+copying gui/wx/Reference.py -> build/lib/leginon/gui/wx
+copying gui/wx/Instrument.py -> build/lib/leginon/gui/wx
+copying gui/wx/MosaicClickTargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/AutoExposure.py -> build/lib/leginon/gui/wx
+copying gui/wx/MaskAssessor.py -> build/lib/leginon/gui/wx
+copying gui/wx/CenterTargetFilter.py -> build/lib/leginon/gui/wx
+copying gui/wx/AlignmentManager.py -> build/lib/leginon/gui/wx
+copying gui/wx/TransformManager.py -> build/lib/leginon/gui/wx
+copying gui/wx/TiltRotate.py -> build/lib/leginon/gui/wx
+copying gui/wx/Selector.py -> build/lib/leginon/gui/wx
+copying gui/wx/BeamTiltCalibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/MatlabTargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/TargetPanel.py -> build/lib/leginon/gui/wx
+copying gui/wx/ClickMaskMaker.py -> build/lib/leginon/gui/wx
+copying gui/wx/Navigator.py -> build/lib/leginon/gui/wx
+copying gui/wx/ApplicationEditorLite.py -> build/lib/leginon/gui/wx
+copying gui/wx/MessageLog.py -> build/lib/leginon/gui/wx
+copying gui/wx/AutoFiller.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImagePanelTools.py -> build/lib/leginon/gui/wx
+copying gui/wx/GonModeler.py -> build/lib/leginon/gui/wx
+copying gui/wx/Rings.py -> build/lib/leginon/gui/wx
+copying gui/wx/RobotAtlasTargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageAssessor.py -> build/lib/leginon/gui/wx
+copying gui/wx/Presets.py -> build/lib/leginon/gui/wx
+copying gui/wx/ImageBeamCalibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/FFTAce.py -> build/lib/leginon/gui/wx
+copying gui/wx/TargetRepeater.py -> build/lib/leginon/gui/wx
+copying gui/wx/AutoTargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/Choice.py -> build/lib/leginon/gui/wx
+copying gui/wx/ExposureFixer.py -> build/lib/leginon/gui/wx
+copying gui/wx/BeamTiltImager.py -> build/lib/leginon/gui/wx
+copying gui/wx/HoleDepth.py -> build/lib/leginon/gui/wx
+copying gui/wx/TargetFilter.py -> build/lib/leginon/gui/wx
+copying gui/wx/Query.py -> build/lib/leginon/gui/wx
+copying gui/wx/HoleFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/RegionFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/BufferCycler.py -> build/lib/leginon/gui/wx
+copying gui/wx/PixelSizeCalibrator.py -> build/lib/leginon/gui/wx
+copying gui/wx/TargetFinder.py -> build/lib/leginon/gui/wx
+copying gui/wx/SelectionTool.py -> build/lib/leginon/gui/wx
+copying gui/wx/AlignZLP.py -> build/lib/leginon/gui/wx
+copying gui/wx/Data.py -> build/lib/leginon/gui/wx
+copying gui/wx/TargetPanelBitmaps.py -> build/lib/leginon/gui/wx
+copying gui/wx/Settings.py -> build/lib/leginon/gui/wx
+creating build/lib/leginon/icons
+copying icons/__init__.py -> build/lib/leginon/icons
+creating build/lib/leginon/tomography
+copying tomography/tiltseries.py -> build/lib/leginon/tomography
+copying tomography/exposure.py -> build/lib/leginon/tomography
+copying tomography/tomographysimu.py -> build/lib/leginon/tomography
+copying tomography/tilts.py -> build/lib/leginon/tomography
+copying tomography/__init__.py -> build/lib/leginon/tomography
+copying tomography/collectionsimu.py -> build/lib/leginon/tomography
+copying tomography/collection.py -> build/lib/leginon/tomography
+copying tomography/tomography.py -> build/lib/leginon/tomography
+copying tomography/tiltcorrelator.py -> build/lib/leginon/tomography
+copying tomography/prediction.py -> build/lib/leginon/tomography
+creating build/lib/leginon/gui/wx/tomography
+copying gui/wx/tomography/TomographyViewer.py -> build/lib/leginon/gui/wx/tomography
+copying gui/wx/tomography/TomographySimu.py -> build/lib/leginon/gui/wx/tomography
+copying gui/wx/tomography/__init__.py -> build/lib/leginon/gui/wx/tomography
+copying gui/wx/tomography/Tomography.py -> build/lib/leginon/gui/wx/tomography
+creating build/lib/leginon/applications
+copying applications/__init__.py -> build/lib/leginon/applications
+running build_scripts
+creating build/scripts-2.7
+copying install-leginon.py -> build/scripts-2.7
+copying and adjusting start-leginon.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/install-leginon.py from 644 to 755
+changing mode of build/scripts-2.7/start-leginon.py from 644 to 755
+running install_lib
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/NumericImage.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/checkapps.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/raster.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/beeper.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/beamtiltfixer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/houghcircle.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/rastertargetfilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/jpeg.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/rasterindexer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/lattice.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/intensitymonitor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/configcheck.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/clickmaskmaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/clean.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tilttracker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/gaussfit.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/mosaicsectionfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/unique.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/EM.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/presets.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/speed.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/manualacquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/libCVwrapper.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/getinstrumentclasses.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/sibling_stagepositions.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/noderegistry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/fftanalyzer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/rasterfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/dosecalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/robot.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/compositetest.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/atlastargetmaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/intensitycalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/driftmanager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/projectdata.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/commonsteps.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/plategridentry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/jahcfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/baker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/node.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/install-leginon.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/tiltcorrelator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/collection.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/tomography.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/tilts.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/prediction.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/exposure.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/tomographysimu.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/tiltseries.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/tomography/collectionsimu.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography
+copying build/lib/leginon/squarefinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/beamfixer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/imagewatcher.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/mrc2jpg.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/mosaictargetfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/presetadjuster.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/imageprocessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/transformregistration.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/version.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/datasync.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/fftace.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/killtargets.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/holefinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/corrector2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/socketpickle.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/jahcfinderback.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targetfilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/getReferences.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/regionfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/player.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/dbdatatest.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/buffercycler.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targetrepeater.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying build/lib/leginon/icons/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying build/lib/leginon/clicktargettransformer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/test2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/rawtransfer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/testtargetfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/montage.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/align.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/holedepth.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/hough.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tiltcorrector.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targetfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/update16.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/legoptparse.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/robotatlastargetfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/plotgain.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/application.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/webcam.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/test1_array_transport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/templatefinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/session.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/start.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/project.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/socketstreamtransport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/test1.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/delapps.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/instrument.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tiltrotate.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/corrector.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/shortpath.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/testrepeater.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/plategridmaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targetwatcher.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/fftmaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/syscheck.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/robotserver.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/libcvcaller.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/mrc2jpg2out.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/querystagepoints.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tableau.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/launcher.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/holefinderback.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/emailnotification.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/robot2nysbc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/caustic.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/manualfocuschecker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/imagehandler.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/legbackup.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/testdb.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/simulogger.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/focuser.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/imageprocessorexample.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/mosaic.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/ddinfo.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/conditioner.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/magcalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/holedepthback.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/calibrationclient.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/stigacquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/quantifoil.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/databinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/start-leginon.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/gonmodeler.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/importexport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/appclient.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui
+copying build/lib/leginon/gui/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ManualImageLoader.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/AutoTargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TiltTracker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Query.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ManualFocus.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageScale.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/GridEntry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/DTFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageViewerEvents.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/DoseCalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageViewer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Rings.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/AutoFiller.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MessageLog.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Events.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Data.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageViewer2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Conditioner.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TiltRotate.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Presets.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TargetPanelBitmaps.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageViewer3.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Instrument.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageBrowser.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/PresetsManager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Launcher.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MosaicClickTargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/JAHCFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Master.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MagCalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/FFTMaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Icons.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/FFTAnalyzer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/BeamSizeCalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/DriftManager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/SampleTargetFilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Corrector.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/GonModeler.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/FFTAce.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/AlignmentManager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TransformManager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/SetupWizard.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/CenterTargetFilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/BeamTiltFixer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Acquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Choice.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/RaptorProcessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/RobotAtlasTargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/StigAcquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageViewerTools.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/RCTAcquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageProcessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ObjectCanvas.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TiltAcquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TargetTemplate.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ApplicationEditorLite.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/HoleFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/BeamTiltCalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MatlabTargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Selector.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/RegionFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ClickTargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TestTargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TargetFilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/IntensityMonitor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ExposureFixer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MosaicSectionFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TiltAlternater.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/BufferCycler.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Logging.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Stats.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ClickMaskMaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Processing.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Beeper.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageAssessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/RasterTargetFilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/PlateGridEntry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MatrixCalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/SelectionTool.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MosaicTargetMaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography
+copying build/lib/leginon/gui/wx/tomography/Tomography.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography
+copying build/lib/leginon/gui/wx/tomography/TomographyViewer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography
+copying build/lib/leginon/gui/wx/tomography/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography
+copying build/lib/leginon/gui/wx/tomography/TomographySimu.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography
+copying build/lib/leginon/gui/wx/RasterFCFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Focuser.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TargetPanel.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Dialog.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ManualAcquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/HoleDepth.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Entry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ClickTargetTransformer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/About.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Calibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MosaicSpotFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TargetPanelTools.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ListBox.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Node.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/FocusSequence.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ToolBar.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/AlignZLP.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ApplicationEditor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/BeamFixer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/MaskAssessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/AutoExposure.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/BeamTiltImager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Settings.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImagePanelTools.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Camera.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImagePanel.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Robot.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/PixelSizeCalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Baker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/RasterFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Reference.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Manager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/AtlasTargetMaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/ImageBeamCalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/Navigator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/TargetRepeater.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/gui/wx/NewTargetFinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx
+copying build/lib/leginon/datatransport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/betarotation.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/runRaptor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/manualimageloader.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/maketemplate.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/makeatlas.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/rasterfcfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/maskassessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/exposurefixer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/correctorclient.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/autoexposure.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tiltacquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/remotecall.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tiltmatch.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/leginondata.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tiltalternater.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/matrixcalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/localtransport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/timer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/mosaicspotfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/imagebeamcalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/cscheck.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/robot2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/beamsizecalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targetworkflow.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/openCVcaller.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/imageassessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/test2_array_transport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/MrcImagePlugin.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/sampletargetfilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/plotmodel.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/navigator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/imodprocessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targethandler.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/watcher.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/reference.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying build/lib/leginon/applications/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying build/lib/leginon/acquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/raptorprocessor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/manager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/calibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/pixelsizecalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/configparser.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/polygon.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/workflow.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/cameraclient.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/beamtiltimager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/dtfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/gridentry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/modelinst.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targetmaker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/matlabtargetfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/scrippsrobotserver.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/ice.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/gridlabeler.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/leginonconfig.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/event.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/beamtiltcalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/caltransformer.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/alignmentmanager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/transformmanager.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/targetexample.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/tcptransport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/centertargetfilter.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/gonmodel.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/newtargetfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/rctacquisition.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying build/lib/leginon/allnodes.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/NumericImage.py to NumericImage.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/checkapps.py to checkapps.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/raster.py to raster.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/beeper.py to beeper.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/beamtiltfixer.py to beamtiltfixer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/houghcircle.py to houghcircle.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/rastertargetfilter.py to rastertargetfilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/jpeg.py to jpeg.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/rasterindexer.py to rasterindexer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/lattice.py to lattice.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/intensitymonitor.py to intensitymonitor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/configcheck.py to configcheck.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/clickmaskmaker.py to clickmaskmaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/clean.py to clean.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tilttracker.py to tilttracker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gaussfit.py to gaussfit.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/mosaicsectionfinder.py to mosaicsectionfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/unique.py to unique.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/EM.py to EM.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/presets.py to presets.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/speed.py to speed.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/manualacquisition.py to manualacquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/libCVwrapper.py to libCVwrapper.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/getinstrumentclasses.py to getinstrumentclasses.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/sibling_stagepositions.py to sibling_stagepositions.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/noderegistry.py to noderegistry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/fftanalyzer.py to fftanalyzer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/rasterfinder.py to rasterfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/dosecalibrator.py to dosecalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/robot.py to robot.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/compositetest.py to compositetest.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/atlastargetmaker.py to atlastargetmaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/intensitycalibrator.py to intensitycalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/driftmanager.py to driftmanager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/projectdata.py to projectdata.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/commonsteps.py to commonsteps.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/plategridentry.py to plategridentry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/jahcfinder.py to jahcfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/baker.py to baker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/node.py to node.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/install-leginon.py to install-leginon.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/tiltcorrelator.py to tiltcorrelator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/collection.py to collection.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/tomography.py to tomography.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/tilts.py to tilts.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/prediction.py to prediction.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/exposure.py to exposure.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/tomographysimu.py to tomographysimu.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/tiltseries.py to tiltseries.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tomography/collectionsimu.py to collectionsimu.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/squarefinder.py to squarefinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/beamfixer.py to beamfixer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/imagewatcher.py to imagewatcher.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/mrc2jpg.py to mrc2jpg.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/mosaictargetfinder.py to mosaictargetfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/presetadjuster.py to presetadjuster.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/imageprocessor.py to imageprocessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/transformregistration.py to transformregistration.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/version.py to version.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/datasync.py to datasync.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/fftace.py to fftace.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/killtargets.py to killtargets.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/holefinder.py to holefinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/corrector2.py to corrector2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/socketpickle.py to socketpickle.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/jahcfinderback.py to jahcfinderback.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targetfilter.py to targetfilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/getReferences.py to getReferences.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/regionfinder.py to regionfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/player.py to player.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/dbdatatest.py to dbdatatest.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/buffercycler.py to buffercycler.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targetrepeater.py to targetrepeater.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/clicktargettransformer.py to clicktargettransformer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/test2.py to test2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/rawtransfer.py to rawtransfer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/testtargetfinder.py to testtargetfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/montage.py to montage.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/align.py to align.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/holedepth.py to holedepth.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/hough.py to hough.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tiltcorrector.py to tiltcorrector.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targetfinder.py to targetfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/update16.py to update16.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/legoptparse.py to legoptparse.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/robotatlastargetfinder.py to robotatlastargetfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/plotgain.py to plotgain.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/application.py to application.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/webcam.py to webcam.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/test1_array_transport.py to test1_array_transport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/templatefinder.py to templatefinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/session.py to session.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/start.py to start.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/project.py to project.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/socketstreamtransport.py to socketstreamtransport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/test1.py to test1.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/delapps.py to delapps.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/instrument.py to instrument.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tiltrotate.py to tiltrotate.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/corrector.py to corrector.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/shortpath.py to shortpath.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/testrepeater.py to testrepeater.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/plategridmaker.py to plategridmaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targetwatcher.py to targetwatcher.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/fftmaker.py to fftmaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/syscheck.py to syscheck.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/robotserver.py to robotserver.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/libcvcaller.py to libcvcaller.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/mrc2jpg2out.py to mrc2jpg2out.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/querystagepoints.py to querystagepoints.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tableau.py to tableau.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/launcher.py to launcher.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/holefinderback.py to holefinderback.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/emailnotification.py to emailnotification.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/robot2nysbc.py to robot2nysbc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/caustic.py to caustic.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/manualfocuschecker.py to manualfocuschecker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/imagehandler.py to imagehandler.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/legbackup.py to legbackup.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/testdb.py to testdb.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/simulogger.py to simulogger.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/focuser.py to focuser.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/imageprocessorexample.py to imageprocessorexample.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/mosaic.py to mosaic.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/ddinfo.py to ddinfo.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/conditioner.py to conditioner.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/magcalibrator.py to magcalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/holedepthback.py to holedepthback.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/calibrationclient.py to calibrationclient.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/stigacquisition.py to stigacquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/quantifoil.py to quantifoil.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/databinder.py to databinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/start-leginon.py to start-leginon.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gonmodeler.py to gonmodeler.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/importexport.py to importexport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/appclient.py to appclient.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ManualImageLoader.py to ManualImageLoader.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/AutoTargetFinder.py to AutoTargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TiltTracker.py to TiltTracker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Query.py to Query.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ManualFocus.py to ManualFocus.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageScale.py to ImageScale.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/GridEntry.py to GridEntry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/DTFinder.py to DTFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageViewerEvents.py to ImageViewerEvents.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/DoseCalibrator.py to DoseCalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageViewer.py to ImageViewer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Rings.py to Rings.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/AutoFiller.py to AutoFiller.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MessageLog.py to MessageLog.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Events.py to Events.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Data.py to Data.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageViewer2.py to ImageViewer2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Conditioner.py to Conditioner.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TiltRotate.py to TiltRotate.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Presets.py to Presets.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TargetPanelBitmaps.py to TargetPanelBitmaps.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageViewer3.py to ImageViewer3.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Instrument.py to Instrument.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageBrowser.py to ImageBrowser.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/PresetsManager.py to PresetsManager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Launcher.py to Launcher.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MosaicClickTargetFinder.py to MosaicClickTargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/JAHCFinder.py to JAHCFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Master.py to Master.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MagCalibrator.py to MagCalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/FFTMaker.py to FFTMaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Icons.py to Icons.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/FFTAnalyzer.py to FFTAnalyzer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/BeamSizeCalibrator.py to BeamSizeCalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/DriftManager.py to DriftManager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/SampleTargetFilter.py to SampleTargetFilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Corrector.py to Corrector.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/GonModeler.py to GonModeler.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/FFTAce.py to FFTAce.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/AlignmentManager.py to AlignmentManager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TransformManager.py to TransformManager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/SetupWizard.py to SetupWizard.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/CenterTargetFilter.py to CenterTargetFilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/BeamTiltFixer.py to BeamTiltFixer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Acquisition.py to Acquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Choice.py to Choice.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/RaptorProcessor.py to RaptorProcessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/RobotAtlasTargetFinder.py to RobotAtlasTargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/StigAcquisition.py to StigAcquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageViewerTools.py to ImageViewerTools.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/RCTAcquisition.py to RCTAcquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageProcessor.py to ImageProcessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ObjectCanvas.py to ObjectCanvas.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TiltAcquisition.py to TiltAcquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TargetTemplate.py to TargetTemplate.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ApplicationEditorLite.py to ApplicationEditorLite.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/HoleFinder.py to HoleFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/BeamTiltCalibrator.py to BeamTiltCalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MatlabTargetFinder.py to MatlabTargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Selector.py to Selector.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/RegionFinder.py to RegionFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ClickTargetFinder.py to ClickTargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TestTargetFinder.py to TestTargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TargetFilter.py to TargetFilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/IntensityMonitor.py to IntensityMonitor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ExposureFixer.py to ExposureFixer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MosaicSectionFinder.py to MosaicSectionFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TiltAlternater.py to TiltAlternater.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/BufferCycler.py to BufferCycler.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TargetFinder.py to TargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Logging.py to Logging.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Stats.py to Stats.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ClickMaskMaker.py to ClickMaskMaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Processing.py to Processing.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Beeper.py to Beeper.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageAssessor.py to ImageAssessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/RasterTargetFilter.py to RasterTargetFilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/PlateGridEntry.py to PlateGridEntry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MatrixCalibrator.py to MatrixCalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/SelectionTool.py to SelectionTool.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MosaicTargetMaker.py to MosaicTargetMaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography/Tomography.py to Tomography.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography/TomographyViewer.py to TomographyViewer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/tomography/TomographySimu.py to TomographySimu.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/RasterFCFinder.py to RasterFCFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Focuser.py to Focuser.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TargetPanel.py to TargetPanel.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Dialog.py to Dialog.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ManualAcquisition.py to ManualAcquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/HoleDepth.py to HoleDepth.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Entry.py to Entry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ClickTargetTransformer.py to ClickTargetTransformer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/About.py to About.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Calibrator.py to Calibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MosaicSpotFinder.py to MosaicSpotFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TargetPanelTools.py to TargetPanelTools.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ListBox.py to ListBox.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Node.py to Node.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/FocusSequence.py to FocusSequence.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ToolBar.py to ToolBar.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/AlignZLP.py to AlignZLP.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ApplicationEditor.py to ApplicationEditor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/BeamFixer.py to BeamFixer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/MaskAssessor.py to MaskAssessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/AutoExposure.py to AutoExposure.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/BeamTiltImager.py to BeamTiltImager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Settings.py to Settings.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImagePanelTools.py to ImagePanelTools.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Camera.py to Camera.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImagePanel.py to ImagePanel.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Robot.py to Robot.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/PixelSizeCalibrator.py to PixelSizeCalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Baker.py to Baker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/RasterFinder.py to RasterFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Reference.py to Reference.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Manager.py to Manager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/AtlasTargetMaker.py to AtlasTargetMaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/ImageBeamCalibrator.py to ImageBeamCalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/Navigator.py to Navigator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/TargetRepeater.py to TargetRepeater.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gui/wx/NewTargetFinder.py to NewTargetFinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/datatransport.py to datatransport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/betarotation.py to betarotation.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/runRaptor.py to runRaptor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/manualimageloader.py to manualimageloader.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/maketemplate.py to maketemplate.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/makeatlas.py to makeatlas.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/rasterfcfinder.py to rasterfcfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/maskassessor.py to maskassessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/exposurefixer.py to exposurefixer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/correctorclient.py to correctorclient.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/autoexposure.py to autoexposure.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tiltacquisition.py to tiltacquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/remotecall.py to remotecall.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tiltmatch.py to tiltmatch.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/leginondata.py to leginondata.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tiltalternater.py to tiltalternater.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/matrixcalibrator.py to matrixcalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/localtransport.py to localtransport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/timer.py to timer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/mosaicspotfinder.py to mosaicspotfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/imagebeamcalibrator.py to imagebeamcalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/cscheck.py to cscheck.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/robot2.py to robot2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/beamsizecalibrator.py to beamsizecalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targetworkflow.py to targetworkflow.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/openCVcaller.py to openCVcaller.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/imageassessor.py to imageassessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/test2_array_transport.py to test2_array_transport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/MrcImagePlugin.py to MrcImagePlugin.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/sampletargetfilter.py to sampletargetfilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/plotmodel.py to plotmodel.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/navigator.py to navigator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/imodprocessor.py to imodprocessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targethandler.py to targethandler.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/watcher.py to watcher.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/reference.py to reference.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/acquisition.py to acquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/raptorprocessor.py to raptorprocessor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/manager.py to manager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/calibrator.py to calibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/pixelsizecalibrator.py to pixelsizecalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/configparser.py to configparser.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/polygon.py to polygon.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/workflow.py to workflow.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/cameraclient.py to cameraclient.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/beamtiltimager.py to beamtiltimager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/dtfinder.py to dtfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gridentry.py to gridentry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/modelinst.py to modelinst.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targetmaker.py to targetmaker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/matlabtargetfinder.py to matlabtargetfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/scrippsrobotserver.py to scrippsrobotserver.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/ice.py to ice.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gridlabeler.py to gridlabeler.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/leginonconfig.py to leginonconfig.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/event.py to event.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/beamtiltcalibrator.py to beamtiltcalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/caltransformer.py to caltransformer.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/alignmentmanager.py to alignmentmanager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/transformmanager.py to transformmanager.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/targetexample.py to targetexample.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/tcptransport.py to tcptransport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/centertargetfilter.py to centertargetfilter.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/gonmodel.py to gonmodel.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/newtargetfinder.py to newtargetfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/rctacquisition.py to rctacquisition.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/allnodes.py to allnodes.pyc
+running install_scripts
+copying build/scripts-2.7/install-leginon.py -> /data/software/repo/myami/3.2/bin
+copying build/scripts-2.7/start-leginon.py -> /data/software/repo/myami/3.2/bin
+changing mode of /data/software/repo/myami/3.2/bin/install-leginon.py to 755
+changing mode of /data/software/repo/myami/3.2/bin/start-leginon.py to 755
+running install_data
+copying holetemplate.mrc -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying sq_example.jpg -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying hl_example.jpg -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon
+copying icons/targetfilter.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/imagebrowser.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/tiltaxis.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/squarefinder.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/pixelsize.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/notes.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/manualfocus.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/import.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/settings.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/realgrid.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/navigator.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/end.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/corrector.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/floppy.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/atlastarget.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/focus_sequence.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/display.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/atlasmaker.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/cam_ruler.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/grid.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/warning.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/acquisition.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/green.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/z.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/begin.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/down.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/plus.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/instrumentgetnew.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/autofocus.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/sine.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/value.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/check.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/ruler.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/robotgridtray.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/fftmaker.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/presets.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/picker.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/matrix.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/holefinder.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/alignzlp.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/tilt_ruler.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/beamtilt.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/pause.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/alignpresets.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/setup.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/instrumentset.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/currentposition.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/declare.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/error.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/instrumentget.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/info.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/userinput.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/stop.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/cleargrid.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/acquire.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/play.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/focuser.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/simulatetargetloop.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/alpha.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/dose.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/simulatetargetloopstop.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/presetsbeam.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/beamtiltset.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/bread.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/focusset.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/extractgrid.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/loop_play.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/up.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/stagelocations.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/instrumentsetnew.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/null.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/clear_queue.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/beamtiltget.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/tiles.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/targetfinder.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/focusget.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/instrument.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/minus.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/node.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/clock.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/arrow.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/color.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/driftmanager.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/stop_queue.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/calculate.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/red.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/send_queue_out.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/autoexposure.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/refresh.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/ellipse.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/valueinverse.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/manualacquisition.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/edit.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/clicktargetfinder.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/simulatetarget.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/grayscale.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/xy.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/rotcenter.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+copying icons/zoom.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green2.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green5.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/base.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green4.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green3.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green0.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green7.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green6.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green1.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying icons/processing/green8.png -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/icons/processing
+copying applications/Robot_MSI-Screen_1st_Pass.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/Robot_MSI-Screen_2nd_Pass.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/Robot_MSI-Screen_Evaluation.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/J-MSI-T2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-T2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Raster.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Raster-Screen.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Section3step.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-SimuTomography.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Tomography.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/Calibrations2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-RCT-Raster2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Typhon2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Edge2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-RCT2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Tomography2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Raster2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/Manual.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/Manual2.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/J-MSI-T.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-RCT-Raster.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-RCT.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-T.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-Edge.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/Calibrations.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+copying applications/MSI-T_Advanced.xml -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/leginon/applications
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib/python2.7/site-packages/Leginon-19461-py2.7.egg-info
+
+########################
+processing pyami
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pyami
+copying mem.py -> build/lib/pyami
+copying convolver.py -> build/lib/pyami
+copying mrc.py -> build/lib/pyami
+copying affine.py -> build/lib/pyami
+copying fftengine.py -> build/lib/pyami
+copying quietscipy.py -> build/lib/pyami
+copying weakattr.py -> build/lib/pyami
+copying fftfun.py -> build/lib/pyami
+copying imagic.py -> build/lib/pyami
+copying resultcache.py -> build/lib/pyami
+copying mrcdiff.py -> build/lib/pyami
+copying peakfinder.py -> build/lib/pyami
+copying douglaspeucker.py -> build/lib/pyami
+copying fei2mrc.py -> build/lib/pyami
+copying cpu.py -> build/lib/pyami
+copying imagic2mrc.py -> build/lib/pyami
+copying ccd.py -> build/lib/pyami
+copying msc.py -> build/lib/pyami
+copying tifffile.py -> build/lib/pyami
+copying fileutil.py -> build/lib/pyami
+copying jpg.py -> build/lib/pyami
+copying rotcor.py -> build/lib/pyami
+copying spider.py -> build/lib/pyami
+copying spidernew.py -> build/lib/pyami
+copying tif2mrc.py -> build/lib/pyami
+copying mpimrcjpg.py -> build/lib/pyami
+copying imagefun.py -> build/lib/pyami
+copying timedcall.py -> build/lib/pyami
+copying surfarea.py -> build/lib/pyami
+copying primefactor.py -> build/lib/pyami
+copying affine2.py -> build/lib/pyami
+copying validatemrc2014.py -> build/lib/pyami
+copying __init__.py -> build/lib/pyami
+copying plot.py -> build/lib/pyami
+copying correlator.py -> build/lib/pyami
+copying timedproc.py -> build/lib/pyami
+copying numpil.py -> build/lib/pyami
+copying arraystats.py -> build/lib/pyami
+copying ordereddict.py -> build/lib/pyami
+copying ellipse.py -> build/lib/pyami
+copying numraw.py -> build/lib/pyami
+copying simplempi.py -> build/lib/pyami
+copying version.py -> build/lib/pyami
+creating build/lib/pyami/fft
+copying fft/calc_fftw3.py -> build/lib/pyami/fft
+copying fft/calc_base.py -> build/lib/pyami/fft
+copying fft/main.py -> build/lib/pyami/fft
+copying fft/calc_fftpack.py -> build/lib/pyami/fft
+copying fft/polar.py -> build/lib/pyami/fft
+copying fft/__init__.py -> build/lib/pyami/fft
+copying fft/fftwsetup.py -> build/lib/pyami/fft
+copying fft/registry.py -> build/lib/pyami/fft
+creating build/lib/pyami/fft/fftw3
+copying fft/fftw3/planning.py -> build/lib/pyami/fft/fftw3
+copying fft/fftw3/__init__.py -> build/lib/pyami/fft/fftw3
+copying fft/fftw3/wisdom.py -> build/lib/pyami/fft/fftw3
+copying fft/fftw3/lib.py -> build/lib/pyami/fft/fftw3
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting mrc2any -> build/scripts-2.7
+copying and adjusting any2mrc -> build/scripts-2.7
+copying and adjusting timedproc.py -> build/scripts-2.7
+copying and adjusting fft/fftwsetup.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/mrc2any from 644 to 755
+changing mode of build/scripts-2.7/any2mrc from 644 to 755
+changing mode of build/scripts-2.7/timedproc.py from 644 to 755
+changing mode of build/scripts-2.7/fftwsetup.py from 644 to 755
+running install_lib
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/fftengine.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/surfarea.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/convolver.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/ordereddict.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/peakfinder.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/imagefun.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/fei2mrc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/imagic2mrc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/affine.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/quietscipy.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/primefactor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/mrcdiff.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/fftfun.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/imagic.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/mpimrcjpg.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/cpu.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/correlator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/validatemrc2014.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/spidernew.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/msc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/weakattr.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/ccd.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/ellipse.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/timedcall.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/version.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/numraw.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/jpg.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/arraystats.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/numpil.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/mrc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/mem.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/tif2mrc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/spider.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/tifffile.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/resultcache.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/fileutil.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/plot.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/rotcor.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/fft/calc_base.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/fft/calc_fftpack.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3
+copying build/lib/pyami/fft/fftw3/planning.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3
+copying build/lib/pyami/fft/fftw3/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3
+copying build/lib/pyami/fft/fftw3/lib.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3
+copying build/lib/pyami/fft/fftw3/wisdom.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3
+copying build/lib/pyami/fft/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/fft/registry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/fft/polar.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/fft/main.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/fft/fftwsetup.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/fft/calc_fftw3.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft
+copying build/lib/pyami/simplempi.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/affine2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/douglaspeucker.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+copying build/lib/pyami/timedproc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fftengine.py to fftengine.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/surfarea.py to surfarea.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/convolver.py to convolver.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/ordereddict.py to ordereddict.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/peakfinder.py to peakfinder.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/imagefun.py to imagefun.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fei2mrc.py to fei2mrc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/imagic2mrc.py to imagic2mrc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/affine.py to affine.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/quietscipy.py to quietscipy.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/primefactor.py to primefactor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/mrcdiff.py to mrcdiff.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fftfun.py to fftfun.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/imagic.py to imagic.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/mpimrcjpg.py to mpimrcjpg.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/cpu.py to cpu.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/correlator.py to correlator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/validatemrc2014.py to validatemrc2014.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/spidernew.py to spidernew.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/msc.py to msc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/weakattr.py to weakattr.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/ccd.py to ccd.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/ellipse.py to ellipse.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/timedcall.py to timedcall.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/version.py to version.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/numraw.py to numraw.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/jpg.py to jpg.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/arraystats.py to arraystats.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/numpil.py to numpil.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/mrc.py to mrc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/mem.py to mem.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/tif2mrc.py to tif2mrc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/spider.py to spider.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/tifffile.py to tifffile.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/resultcache.py to resultcache.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fileutil.py to fileutil.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/plot.py to plot.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/rotcor.py to rotcor.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/calc_base.py to calc_base.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/calc_fftpack.py to calc_fftpack.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3/planning.py to planning.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3/lib.py to lib.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftw3/wisdom.py to wisdom.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/registry.py to registry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/polar.py to polar.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/main.py to main.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/fftwsetup.py to fftwsetup.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/fft/calc_fftw3.py to calc_fftw3.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/simplempi.py to simplempi.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/affine2.py to affine2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/douglaspeucker.py to douglaspeucker.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami/timedproc.py to timedproc.pyc
+running install_scripts
+copying build/scripts-2.7/fftwsetup.py -> /data/software/repo/myami/3.2/bin
+copying build/scripts-2.7/timedproc.py -> /data/software/repo/myami/3.2/bin
+copying build/scripts-2.7/any2mrc -> /data/software/repo/myami/3.2/bin
+copying build/scripts-2.7/mrc2any -> /data/software/repo/myami/3.2/bin
+changing mode of /data/software/repo/myami/3.2/bin/fftwsetup.py to 755
+changing mode of /data/software/repo/myami/3.2/bin/timedproc.py to 755
+changing mode of /data/software/repo/myami/3.2/bin/any2mrc to 755
+changing mode of /data/software/repo/myami/3.2/bin/mrc2any to 755
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyami-0.1-py2.7.egg-info
+
+########################
+processing pyscope
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pyscope
+copying jeol1230lib.py -> build/lib/pyscope
+copying stagespeedtest.py -> build/lib/pyscope
+copying cmlib.py -> build/lib/pyscope
+copying multicall.py -> build/lib/pyscope
+copying scalecalibrator.py -> build/lib/pyscope
+copying gatansocket.py -> build/lib/pyscope
+copying jeolconfig.py -> build/lib/pyscope
+copying de12.py -> build/lib/pyscope
+copying cmtest.py -> build/lib/pyscope
+copying simtem.py -> build/lib/pyscope
+copying tietz.py -> build/lib/pyscope
+copying tecnai.py -> build/lib/pyscope
+copying enumproc.py -> build/lib/pyscope
+copying jeol_tem3.py -> build/lib/pyscope
+copying DECameraClientLib_pb.py -> build/lib/pyscope
+copying tietzcontrol.py -> build/lib/pyscope
+copying k2loop.py -> build/lib/pyscope
+copying standard.py -> build/lib/pyscope
+copying gatan2.py -> build/lib/pyscope
+copying joysticktest.py -> build/lib/pyscope
+copying de12-config.py -> build/lib/pyscope
+copying CM.py -> build/lib/pyscope
+copying setup-nocompile.py -> build/lib/pyscope
+copying tietztest.py -> build/lib/pyscope
+copying gatank2.py -> build/lib/pyscope
+copying remote.py -> build/lib/pyscope
+copying checkcom.py -> build/lib/pyscope
+copying updatecom.py -> build/lib/pyscope
+copying falconframe.py -> build/lib/pyscope
+copying get_beamtilt_scale.py -> build/lib/pyscope
+copying loop.py -> build/lib/pyscope
+copying jeol1230.py -> build/lib/pyscope
+copying dmsem.py -> build/lib/pyscope
+copying tecnaicamera.py -> build/lib/pyscope
+copying baseinstrument.py -> build/lib/pyscope
+copying tem.py -> build/lib/pyscope
+copying filmscanner.py -> build/lib/pyscope
+copying nidaq.py -> build/lib/pyscope
+copying simccdcamera2.py -> build/lib/pyscope
+copying tecnai2.py -> build/lib/pyscope
+copying install-pyscope_stand_alone.py -> build/lib/pyscope
+copying CMCal.py -> build/lib/pyscope
+copying registry.py -> build/lib/pyscope
+copying install-pyscope.py -> build/lib/pyscope
+copying ccdcamera.py -> build/lib/pyscope
+copying tia.py -> build/lib/pyscope
+copying moduleconfig.py -> build/lib/pyscope
+copying DECameraClientLib.py -> build/lib/pyscope
+copying loggedmethods.py -> build/lib/pyscope
+copying tietzping.py -> build/lib/pyscope
+copying de12correct.py -> build/lib/pyscope
+copying __init__.py -> build/lib/pyscope
+copying safearray.py -> build/lib/pyscope
+copying killproc.py -> build/lib/pyscope
+copying playbacklog.py -> build/lib/pyscope
+copying measure_leakage.py -> build/lib/pyscope
+copying config.py -> build/lib/pyscope
+copying findDLL.py -> build/lib/pyscope
+copying de12_software_sim.py -> build/lib/pyscope
+copying cm300mags.py -> build/lib/pyscope
+copying de.py -> build/lib/pyscope
+copying simccdcamera.py -> build/lib/pyscope
+copying test.py -> build/lib/pyscope
+copying CMData.py -> build/lib/pyscope
+copying defectmap2list.py -> build/lib/pyscope
+copying jeolcom.py -> build/lib/pyscope
+copying timerwidget.py -> build/lib/pyscope
+copying gatan.py -> build/lib/pyscope
+running install_lib
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/simtem.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/playbacklog.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/safearray.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/cmtest.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/test.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/DECameraClientLib.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/findDLL.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tietzping.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/registry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/k2loop.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/simccdcamera.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/de12correct.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tecnai.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/jeolcom.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/scalecalibrator.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/install-pyscope_stand_alone.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/defectmap2list.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/cm300mags.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/timerwidget.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/dmsem.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/moduleconfig.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/cmlib.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tecnai2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/baseinstrument.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/filmscanner.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tem.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/de12_software_sim.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/setup-nocompile.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/ccdcamera.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/CM.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/gatan2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/remote.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/killproc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tia.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tietz.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tecnaicamera.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/de12-config.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/get_beamtilt_scale.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/loop.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/enumproc.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tietztest.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/updatecom.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/falconframe.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/install-pyscope.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/DECameraClientLib_pb.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/gatan.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/gatank2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/joysticktest.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/de12.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/tietzcontrol.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/loggedmethods.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/multicall.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/gatansocket.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/checkcom.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/stagespeedtest.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/measure_leakage.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/de.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/nidaq.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/simccdcamera2.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/CMData.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/jeol1230lib.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/jeol1230.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/CMCal.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/standard.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/jeolconfig.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/config.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+copying build/lib/pyscope/jeol_tem3.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/simtem.py to simtem.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/playbacklog.py to playbacklog.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/safearray.py to safearray.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/cmtest.py to cmtest.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/test.py to test.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/DECameraClientLib.py to DECameraClientLib.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/findDLL.py to findDLL.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tietzping.py to tietzping.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/registry.py to registry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/k2loop.py to k2loop.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/simccdcamera.py to simccdcamera.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/de12correct.py to de12correct.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tecnai.py to tecnai.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/jeolcom.py to jeolcom.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/scalecalibrator.py to scalecalibrator.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/install-pyscope_stand_alone.py to install-pyscope_stand_alone.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/defectmap2list.py to defectmap2list.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/cm300mags.py to cm300mags.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/timerwidget.py to timerwidget.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/dmsem.py to dmsem.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/moduleconfig.py to moduleconfig.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/cmlib.py to cmlib.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tecnai2.py to tecnai2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/baseinstrument.py to baseinstrument.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/filmscanner.py to filmscanner.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tem.py to tem.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/de12_software_sim.py to de12_software_sim.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/setup-nocompile.py to setup-nocompile.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/ccdcamera.py to ccdcamera.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/CM.py to CM.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/gatan2.py to gatan2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/remote.py to remote.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/killproc.py to killproc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tia.py to tia.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tietz.py to tietz.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tecnaicamera.py to tecnaicamera.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/de12-config.py to de12-config.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/get_beamtilt_scale.py to get_beamtilt_scale.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/loop.py to loop.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/enumproc.py to enumproc.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tietztest.py to tietztest.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/updatecom.py to updatecom.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/falconframe.py to falconframe.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/install-pyscope.py to install-pyscope.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/DECameraClientLib_pb.py to DECameraClientLib_pb.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/gatan.py to gatan.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/gatank2.py to gatank2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/joysticktest.py to joysticktest.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/de12.py to de12.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/tietzcontrol.py to tietzcontrol.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/loggedmethods.py to loggedmethods.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/multicall.py to multicall.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/gatansocket.py to gatansocket.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/checkcom.py to checkcom.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/stagespeedtest.py to stagespeedtest.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/measure_leakage.py to measure_leakage.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/de.py to de.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/nidaq.py to nidaq.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/simccdcamera2.py to simccdcamera2.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/CMData.py to CMData.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/jeol1230lib.py to jeol1230lib.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/jeol1230.py to jeol1230.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/CMCal.py to CMCal.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/standard.py to standard.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/jeolconfig.py to jeolconfig.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/config.py to config.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope/jeol_tem3.py to jeol_tem3.pyc
+running install_data
+copying instruments.cfg.template -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib/python2.7/site-packages/pyscope-1.0.8-py2.7.egg-info
+
+########################
+processing sinedon
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/sinedon
+copying sqldb.py -> build/lib/sinedon
+copying connections.py -> build/lib/sinedon
+copying dbdatakeeper.py -> build/lib/sinedon
+copying __init__.py -> build/lib/sinedon
+copying tcptransport.py -> build/lib/sinedon
+copying data.py -> build/lib/sinedon
+copying dbconfig.py -> build/lib/sinedon
+copying maketables.py -> build/lib/sinedon
+copying sqldict.py -> build/lib/sinedon
+copying dbupgrade.py -> build/lib/sinedon
+copying sqlexpr.py -> build/lib/sinedon
+copying socketstreamtransport.py -> build/lib/sinedon
+copying directq.py -> build/lib/sinedon
+copying newdict.py -> build/lib/sinedon
+running install_lib
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/sqldb.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/tcptransport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/data.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/dbdatakeeper.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/connections.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/sqldict.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/sqlexpr.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/directq.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/maketables.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/dbconfig.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/newdict.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/socketstreamtransport.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/dbupgrade.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+copying build/lib/sinedon/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/sqldb.py to sqldb.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/tcptransport.py to tcptransport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/data.py to data.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/dbdatakeeper.py to dbdatakeeper.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/connections.py to connections.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/sqldict.py to sqldict.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/sqlexpr.py to sqlexpr.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/directq.py to directq.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/maketables.py to maketables.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/dbconfig.py to dbconfig.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/newdict.py to newdict.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/socketstreamtransport.py to socketstreamtransport.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/dbupgrade.py to dbupgrade.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon/__init__.py to __init__.pyc
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib/python2.7/site-packages/sinedon-0.1-py2.7.egg-info
+
+########################
+processing redux
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/redux
+copying cachefs.py -> build/lib/redux
+copying reduxconfig.py -> build/lib/redux
+copying reduxlog.py -> build/lib/redux
+copying pipeline.py -> build/lib/redux
+copying server.py -> build/lib/redux
+copying pipe.py -> build/lib/redux
+copying client.py -> build/lib/redux
+copying cache.py -> build/lib/redux
+copying utility.py -> build/lib/redux
+copying exceptions.py -> build/lib/redux
+copying __init__.py -> build/lib/redux
+copying reduxcherry.py -> build/lib/redux
+creating build/lib/redux/pipes
+copying pipes/mask.py -> build/lib/redux/pipes
+copying pipes/sqrt.py -> build/lib/redux/pipes
+copying pipes/read.py -> build/lib/redux/pipes
+copying pipes/pad.py -> build/lib/redux/pipes
+copying pipes/shape.py -> build/lib/redux/pipes
+copying pipes/scale.py -> build/lib/redux/pipes
+copying pipes/histogram.py -> build/lib/redux/pipes
+copying pipes/format.py -> build/lib/redux/pipes
+copying pipes/leginonread.py -> build/lib/redux/pipes
+copying pipes/simulate.py -> build/lib/redux/pipes
+copying pipes/__init__.py -> build/lib/redux/pipes
+copying pipes/power.py -> build/lib/redux/pipes
+copying pipes/lpf.py -> build/lib/redux/pipes
+creating build/lib/redux/pipelines
+copying pipelines/__init__.py -> build/lib/redux/pipelines
+copying pipelines/histdata.py -> build/lib/redux/pipelines
+copying pipelines/standard.py -> build/lib/redux/pipelines
+copying pipelines/leginon.py -> build/lib/redux/pipelines
+copying pipelines/allpipes.py -> build/lib/redux/pipelines
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting bin/reduxd -> build/scripts-2.7
+copying and adjusting bin/redux -> build/scripts-2.7
+changing mode of build/scripts-2.7/reduxd from 644 to 755
+changing mode of build/scripts-2.7/redux from 644 to 755
+running install_lib
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/cachefs.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/reduxcherry.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/pipe.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/reduxlog.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/server.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/exceptions.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/pipeline.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/client.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/utility.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/read.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/shape.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/format.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/mask.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/simulate.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/sqrt.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/pad.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/power.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/leginonread.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/lpf.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/scale.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/pipes/histogram.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes
+copying build/lib/redux/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+creating /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines
+copying build/lib/redux/pipelines/standard.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines
+copying build/lib/redux/pipelines/allpipes.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines
+copying build/lib/redux/pipelines/__init__.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines
+copying build/lib/redux/pipelines/histdata.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines
+copying build/lib/redux/pipelines/leginon.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines
+copying build/lib/redux/cache.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+copying build/lib/redux/reduxconfig.py -> /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/cachefs.py to cachefs.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/reduxcherry.py to reduxcherry.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipe.py to pipe.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/reduxlog.py to reduxlog.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/server.py to server.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/exceptions.py to exceptions.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipeline.py to pipeline.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/client.py to client.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/utility.py to utility.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/read.py to read.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/shape.py to shape.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/format.py to format.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/mask.py to mask.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/simulate.py to simulate.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/sqrt.py to sqrt.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/pad.py to pad.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/power.py to power.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/leginonread.py to leginonread.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/lpf.py to lpf.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/scale.py to scale.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipes/histogram.py to histogram.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines/standard.py to standard.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines/allpipes.py to allpipes.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines/__init__.py to __init__.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines/histdata.py to histdata.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/pipelines/leginon.py to leginon.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/cache.py to cache.pyc
+byte-compiling /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux/reduxconfig.py to reduxconfig.pyc
+running install_scripts
+copying build/scripts-2.7/redux -> /data/software/repo/myami/3.2/bin
+copying build/scripts-2.7/reduxd -> /data/software/repo/myami/3.2/bin
+changing mode of /data/software/repo/myami/3.2/bin/redux to 755
+changing mode of /data/software/repo/myami/3.2/bin/reduxd to 755
+running install_data
+copying init.d/reduxd -> /etc/init.d
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib/python2.7/site-packages/redux-0.0.0-py2.7.egg-info
+
+########################
+processing modules/radermacher
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_ext
+building 'radermacher' extension
+C compiler: gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC
+
+creating build
+creating build/temp.linux-x86_64-2.7
+compile options: '-I/usr/lib64/python2.7/site-packages/numpy/core/include -I/usr/include/python2.7 -c'
+extra options: '-fopenmp'
+gcc: radon.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from radon.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+radon.c:17:1: warning: useless storage class specifier in empty declaration [enabled by default]
+ };
+ ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from radon.c:1:
+radon.c: In function ‘getAngles’:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/__multiarray_api.h:1678:144: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); return NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                ^
+radon.c:166:2: note: in expansion of macro ‘import_array’
+  import_array(); // this is required to use PyArray_New() and PyArray_SimpleNew()
+  ^
+radon.c: In function ‘radonShiftCorrelate’:
+radon.c:228:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘npy_intp’ [-Wformat=]
+    radontwo->dimensions[0], radontwo->dimensions[1]);
+    ^
+radon.c:228:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘npy_intp’ [-Wformat=]
+radon.c:228:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘npy_intp’ [-Wformat=]
+radon.c:228:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘npy_intp’ [-Wformat=]
+radon.c:239:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘npy_intp’ [-Wformat=]
+    radontwo->dimensions[0], radontwo->dimensions[1]);
+    ^
+radon.c:239:4: warning: format ‘%d’ expects argument of type ‘int’, but argument 6 has type ‘npy_intp’ [-Wformat=]
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from radon.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/__multiarray_api.h:1678:144: warning: ‘return’ with no value, in function returning non-void [-Wreturn-type]
+ #define import_array() {if (_import_array() < 0) {PyErr_Print(); PyErr_SetString(PyExc_ImportError, "numpy.core.multiarray failed to import"); return NUMPY_IMPORT_ARRAY_RETVAL; } }
+                                                                                                                                                ^
+radon.c:256:2: note: in expansion of macro ‘import_array’
+  import_array(); // this is required to use PyArray_New() and PyArray_SimpleNew()
+  ^
+radon.c: At top level:
+radon.c:19:13: warning: ‘print_list’ defined but not used [-Wunused-function]
+ static void print_list(struct item *head) {
+             ^
+gcc: main.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from main.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+gcc: willsq.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from willsq.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from willsq.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/__multiarray_api.h:1594:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+ _import_array(void)
+ ^
+gcc: transform.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from transform.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from transform.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/__multiarray_api.h:1594:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+ _import_array(void)
+ ^
+gcc: tiltang.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from tiltang.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:26:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from main.h:2,
+                 from tiltang.c:1:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/__multiarray_api.h:1594:1: warning: ‘_import_array’ defined but not used [-Wunused-function]
+ _import_array(void)
+ ^
+creating build/lib.linux-x86_64-2.7
+gcc -pthread -shared -Wl,-z,relro build/temp.linux-x86_64-2.7/main.o build/temp.linux-x86_64-2.7/tiltang.o build/temp.linux-x86_64-2.7/willsq.o build/temp.linux-x86_64-2.7/transform.o build/temp.linux-x86_64-2.7/radon.o -L. -lpython2.7 -o build/lib.linux-x86_64-2.7/radermacher.so -lgomp
+running install_lib
+creating /data/software/repo/myami/3.2/lib64
+creating /data/software/repo/myami/3.2/lib64/python2.7
+creating /data/software/repo/myami/3.2/lib64/python2.7/site-packages
+copying build/lib.linux-x86_64-2.7/radermacher.so -> /data/software/repo/myami/3.2/lib64/python2.7/site-packages
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib64/python2.7/site-packages/Radermacher-1.1-py2.7.egg-info
+
+########################
+processing modules/libcv
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/libcv
+copying runLibCV.py -> build/lib.linux-x86_64-2.7/libcv
+copying __init__.py -> build/lib.linux-x86_64-2.7/libcv
+running build_ext
+building 'libcv._libcv' extension
+C compiler: gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC
+
+creating build/temp.linux-x86_64-2.7
+compile options: '-DHAS_RUSAGE -I/usr/lib64/python2.7/site-packages/numpy/core/include -I/usr/include/python2.7 -c'
+gcc: mser.c
+mser.c: In function ‘EvaluateStableRegions’:
+mser.c:99:7: warning: variable ‘bestStable’ set but not used [-Wunused-but-set-variable]
+   int bestStable = lastSpike;
+       ^
+gcc: geometry.c
+gcc: lautil.c
+gcc: image.c
+gcc: mserpy.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from mserpy.c:2:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+mserpy.c:299:18: warning: ‘ImageToPyArray’ defined but not used [-Wunused-function]
+ static PyObject *ImageToPyArray( Image image ) {
+                  ^
+mserpy.c:254:18: warning: ‘PyPolygonACD’ defined but not used [-Wunused-function]
+ static PyObject *PyPolygonACD( PyObject *self, PyObject *args ) {
+                  ^
+gcc: mutil.c
+In file included from /usr/include/string.h:638:0,
+                 from util.h:12,
+                 from mutil.c:2:
+In function ‘memset’,
+    inlined from ‘AllocDMatrix’ at mutil.c:15:4:
+/usr/include/bits/string3.h:81:30: warning: call to ‘__warn_memset_zero_len’ declared with attribute warning: memset used with constant zero length parameter; this could be due to transposed parameters [enabled by default]
+       __warn_memset_zero_len ();
+                              ^
+In function ‘memset’,
+    inlined from ‘AllocFMatrix’ at mutil.c:35:4:
+/usr/include/bits/string3.h:81:30: warning: call to ‘__warn_memset_zero_len’ declared with attribute warning: memset used with constant zero length parameter; this could be due to transposed parameters [enabled by default]
+       __warn_memset_zero_len ();
+                              ^
+In function ‘memset’,
+    inlined from ‘AllocIMatrix’ at mutil.c:54:4:
+/usr/include/bits/string3.h:81:30: warning: call to ‘__warn_memset_zero_len’ declared with attribute warning: memset used with constant zero length parameter; this could be due to transposed parameters [enabled by default]
+       __warn_memset_zero_len ();
+                              ^
+gcc: match.c
+gcc: csift.c
+gcc: util.c
+gcc: unionfind.c
+gcc -pthread -shared -Wl,-z,relro build/temp.linux-x86_64-2.7/mserpy.o build/temp.linux-x86_64-2.7/mser.o build/temp.linux-x86_64-2.7/geometry.o build/temp.linux-x86_64-2.7/lautil.o build/temp.linux-x86_64-2.7/util.o build/temp.linux-x86_64-2.7/csift.o build/temp.linux-x86_64-2.7/mutil.o build/temp.linux-x86_64-2.7/image.o build/temp.linux-x86_64-2.7/match.o build/temp.linux-x86_64-2.7/unionfind.o -L. -lpython2.7 -o build/lib.linux-x86_64-2.7/libcv/_libcv.so
+build/temp.linux-x86_64-2.7/mutil.o: In function `memset':
+/usr/include/bits/string3.h:81: warning: memset used with constant zero length parameter; this could be due to transposed parameters
+running install_lib
+creating /data/software/repo/myami/3.2/lib64/python2.7/site-packages/libcv
+copying build/lib.linux-x86_64-2.7/libcv/_libcv.so -> /data/software/repo/myami/3.2/lib64/python2.7/site-packages/libcv
+copying build/lib.linux-x86_64-2.7/libcv/runLibCV.py -> /data/software/repo/myami/3.2/lib64/python2.7/site-packages/libcv
+copying build/lib.linux-x86_64-2.7/libcv/__init__.py -> /data/software/repo/myami/3.2/lib64/python2.7/site-packages/libcv
+byte-compiling /data/software/repo/myami/3.2/lib64/python2.7/site-packages/libcv/runLibCV.py to runLibCV.pyc
+byte-compiling /data/software/repo/myami/3.2/lib64/python2.7/site-packages/libcv/__init__.py to __init__.pyc
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib64/python2.7/site-packages/libcv-0.2-py2.7.egg-info
+
+########################
+processing modules/numextension
+########################
+python setup.py install --prefix=/data/software/repo/myami/3.2
+running install
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/numextension
+copying __init__.py -> build/lib.linux-x86_64-2.7/numextension
+copying testallstats.py -> build/lib.linux-x86_64-2.7/numextension
+running build_ext
+building 'numextension._numextension' extension
+C compiler: gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m64 -mtune=generic -D_GNU_SOURCE -fPIC -fwrapv -fPIC
+
+creating build/temp.linux-x86_64-2.7
+compile options: '-I/usr/lib64/python2.7/site-packages/numpy/core/include -I/usr/include/python2.7 -c'
+gcc: allstats.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from allstats.c:11:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+gcc: numextension.c
+In file included from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1728:0,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:17,
+                 from /usr/lib64/python2.7/site-packages/numpy/core/include/numpy/arrayobject.h:15,
+                 from numextension.c:4:
+/usr/lib64/python2.7/site-packages/numpy/core/include/numpy/npy_deprecated_api.h:11:2: warning: #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by #defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
+  ^
+gcc: canny_edge.c
+canny_edge.c: In function ‘canny’:
+canny_edge.c:84:10: warning: variable ‘count’ set but not used [-Wunused-but-set-variable]
+   size_t count;
+          ^
+gcc -pthread -shared -Wl,-z,relro build/temp.linux-x86_64-2.7/numextension.o build/temp.linux-x86_64-2.7/canny_edge.o build/temp.linux-x86_64-2.7/allstats.o -L. -lpython2.7 -o build/lib.linux-x86_64-2.7/numextension/_numextension.so
+running install_lib
+creating /data/software/repo/myami/3.2/lib64/python2.7/site-packages/numextension
+copying build/lib.linux-x86_64-2.7/numextension/_numextension.so -> /data/software/repo/myami/3.2/lib64/python2.7/site-packages/numextension
+copying build/lib.linux-x86_64-2.7/numextension/testallstats.py -> /data/software/repo/myami/3.2/lib64/python2.7/site-packages/numextension
+copying build/lib.linux-x86_64-2.7/numextension/__init__.py -> /data/software/repo/myami/3.2/lib64/python2.7/site-packages/numextension
+byte-compiling /data/software/repo/myami/3.2/lib64/python2.7/site-packages/numextension/testallstats.py to testallstats.pyc
+byte-compiling /data/software/repo/myami/3.2/lib64/python2.7/site-packages/numextension/__init__.py to __init__.pyc
+running install_egg_info
+Writing /data/software/repo/myami/3.2/lib64/python2.7/site-packages/numextension-svn-py2.7.egg-info
