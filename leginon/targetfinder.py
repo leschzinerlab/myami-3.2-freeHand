@@ -237,6 +237,10 @@ class TargetFinder(imagewatcher.ImageWatcher, targethandler.TargetWaitHandler):
 	def setLastFocusedTargetList(self,targetlist):
 		if self.panel.getTargetPositions('focus'):
 			self.resetLastFocusedTargetList(targetlist)
+		# Issue #3794 atlas targetlist, manual image, and simulated target need to reset last focused targetlist
+		elif targetlist['image'] is None or targetlist['image']['target'] is None or targetlist['image']['target']['type'] == 'simulated':
+			# parent image is from simulated target
+			self.resetLastFocusedTargetList(targetlist)
 		else:
 			self.last_focused = self.focusing_targetlist
 
@@ -387,8 +391,11 @@ class TargetFinder(imagewatcher.ImageWatcher, targethandler.TargetWaitHandler):
 		return is_new
 
 	def setTargetImageVector(self,imagedata):
-		cam_length_on_image,beam_diameter_on_image = self.getAcquisitionTargetDimensions(imagedata)
-		self._setTargetImageVector(cam_length_on_image,beam_diameter_on_image)
+		try:
+			cam_length_on_image,beam_diameter_on_image = self.getAcquisitionTargetDimensions(imagedata)
+			self._setTargetImageVector(cam_length_on_image,beam_diameter_on_image)
+		except:
+			pass
 
 	def _setTargetImageVector(self,cam_length_on_image,beam_diameter_on_image):
 		self.targetbeamradius = beam_diameter_on_image / 2

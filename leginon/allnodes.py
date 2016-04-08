@@ -1,5 +1,5 @@
 '''
-This module keeps track of all classes of Leginon Nodes.  Here you must
+This module keeps track of all classes of Leginons.  Here you must
 import your node class and then register it with the noderegistry module.
 The order in this module determines the sort order for how the nodes
 appear when applications start.
@@ -101,6 +101,9 @@ noderegistry.registerNodeClass(Focuser,classtype)
 
 from rctacquisition import RCTAcquisition
 noderegistry.registerNodeClass(RCTAcquisition,classtype)
+
+from rctaquisitionfreehand import RCTAquisitionFreeHand
+noderegistry.registerNodeClass(RCTAquisitionFreeHand,classtype)
 
 from tilttracker import TiltTracker
 noderegistry.registerNodeClass(TiltTracker,classtype)

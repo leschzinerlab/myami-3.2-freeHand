@@ -83,8 +83,6 @@ def MatchImages(image1, image2):
 	 view[:h2, w1:] = image2
 	 cv2.imwrite('sift_orig.jpg', view)
 
-	 print 'wrote sift_orig.jpg'
-
 	 detector = cv2.FeatureDetector_create("SIFT")
 	 descriptor = cv2.DescriptorExtractor_create("BRIEF")
 	 matcher = cv2.DescriptorMatcher_create("BruteForce-Hamming")
